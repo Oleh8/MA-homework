@@ -16,7 +16,4 @@ public class Main {
         System.out.println(PowNumber.cubeNum(4));
         System.out.println(PowNumber.powNum(4,4));
     }
-
 }
-
-
