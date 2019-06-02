@@ -2,7 +2,6 @@ package hw.one;
 
 public class DiamondBuilder {
     public static void drawDiamond(int givenNum) {
-
         int stars = 1;
         int space = givenNum - stars;
 
