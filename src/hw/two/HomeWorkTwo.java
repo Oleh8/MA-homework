@@ -1,6 +1,6 @@
 package hw.two;
 
-public class DoSmth {
+public class HomeWorkTwo {
     public static boolean booleanExpression(boolean a, boolean b, boolean c, boolean d) {
 
         return (a & b & !c & !d)||(!a & b & c & !d)||(!a & !b & c & d)
@@ -15,6 +15,9 @@ public class DoSmth {
     }
 
     public static boolean doubleExpression(double a, double b, double c) {
-        return a + b == c;
+        return Math.abs((a+b)-c) <= 1E-4;
     }
-}
+
+    public static int flipBit(int value, int bitIndex) {
+        return ;
+    }
