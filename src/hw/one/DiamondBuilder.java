@@ -3,7 +3,6 @@ package hw.one;
 public class DiamondBuilder {
     public static void drawDiamond(int givenNum) {
 
-
         int stars = 1;
         int space = givenNum - stars;
 
@@ -18,7 +17,8 @@ public class DiamondBuilder {
             space--;
             System.out.println();
         }
-
+        stars -= 2;
+        space++;
         for (int i = 0; i <= givenNum / 2; i++) {
             stars -= 2;
             space++;
